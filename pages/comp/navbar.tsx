@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import Link from 'next/link'
+//import Image from 'next/image'
+//import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import NavLogo from '../public/assets/navLogo.png'
+//import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
+//import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+//import { BsFillPersonLinesFill } from 'react-icons/bs'
+import logo from '../public/logo.ico'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
       window.addEventListener('scroll', handleShadow);
     }, []);
     return(
-<div>NNNNNNNNNNNNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV</div>
+<div>NNNNNNNNNNNNNNNNNNNNNNNNNNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV </div> 
     )
 };
 export default Navbar
