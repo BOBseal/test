@@ -29,8 +29,8 @@ export default function Home() {
    <div className='pb-8'><div className={style.bluetext}>Welcome to BOB's Site
    </div> </div> </div> </div>
    <div className ='grid grid-cols-2 lg:grid-cols-2 gap-8 flex justify-center'>
-     <Link href={"./comp/aboutme"}><button className='flex  w-5/6 h-auto m-auto rounded-xl shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300 font-bold'> ABOUT ME</button></Link>
-  <Link href ={"./comp/PlayGround/Ground0"}> <div className=' flex w-5/6 h-auto m-auto rounded-xl shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300 font-bold'> My Playground
+     <Link href={"./aboutme"}><button className='flex  w-5/6 h-auto m-auto rounded-xl shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300 font-bold'> ABOUT ME</button></Link>
+  <Link href ={"./PlayGround/groundO"}> <div className=' flex w-5/6 h-auto m-auto rounded-xl shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-105 ease-in duration-300 font-bold'> My Playground
   </div>  </Link> </div>
    <footer className='pt-8'> 
    <div className={style.footText}>
