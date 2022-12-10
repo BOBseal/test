@@ -1,6 +1,15 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { ChainId, ThirdwebProvider } from '@thirdweb-dev/react'
+//import type  {AppProps}  from 'next/app'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+export const ACi = ChainId.Mumbai
+
+ function App({ Component, pageProps }) {
+  return ( <ThirdwebProvider desiredChainId={ChainId.ACi}
+  chainRpc={{[ChainId.ACi]: process.env.RPC_URL}}
+  >
+    <Component {...pageProps} />
+  </ThirdwebProvider>)
 }
+
+export default App
